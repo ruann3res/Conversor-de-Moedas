@@ -1,0 +1,134 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+body {
+    background: #2C2C2C;
+
+}
+
+#cabeçario {
+    width: 375px;
+    height: 66px;
+    background: darkcyan;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+H1 {
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#caixa {
+    background-color: #B9D3EE;
+    width: 375px;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragrafo {
+    margin-bottom: 6px;
+    color: #777777;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.select {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 48px;
+    width: 327px;
+    margin-bottom: 23px;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    padding-left: 16px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#input {
+    height: 48px;
+    width: 327px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    margin-bottom: 23px;
+    outline: none;
+    padding-left: 16px;
+    
+}
+
+#botao {
+    width: 327px;
+    height: 48px;
+    left: 24px;
+    top: 374px;
+    background: #2E8B57;
+    border-radius: 25px;
+    display: block;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 23px;
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    outline: none;
+    font-weight: bold;
+}
+
+#botao:active {
+    opacity: 0.5;
+}
+#botao:hover {
+    background-color: #2a7c4e;
+}
+
+#caixa-interna {
+    border: 1px solid DarkGrey;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+
+.caixa-menor {
+    text-align: center;
+}
+
+#seta {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.negrito {
+    font-weight: bold;
+    font-size: 20px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
